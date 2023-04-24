@@ -1,0 +1,46 @@
+.peopleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemLabel {
+    color: #ec7532;
+}
+
+.peopleList {
+    padding: 10px 5px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    min-width: 250px;
+    color: black;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 7px 10px rgba(180, 180, 180, 0.2);
+}
+
+.loadingBox {
+    color: black;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.linkName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link:hover{
+   color: #792c03;;
+}

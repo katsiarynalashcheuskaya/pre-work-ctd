@@ -1,0 +1,62 @@
+.filmsContainer {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex-wrap: nowrap;
+    height: 100%;
+    max-height: 600px;
+    color: black;
+}
+
+.filmsList {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 3px 3px 15px;
+    min-width: 300px;
+    text-align: justify;
+    color: black;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 7px 10px rgba(180, 180, 180, 0.2);
+}
+
+.containerLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.itemLabel {
+    color: #ec7532;
+}
+
+.loadText {
+    color: black;
+}
+
+.navContainer {
+    display: flex;
+   /* border: 1px solid red;*/
+    justify-content: space-between;
+    margin: 3px;
+    padding: 15px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.linkName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link:hover{
+    color: #792c03;
+    cursor: pointer;
+}
